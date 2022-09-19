@@ -12,7 +12,7 @@ min.style.transform = `rotate(${180 + (minute * 6)}deg)`
 hours.style.transform = `rotate(${180 + (hour * 30)}deg)`
 
 
-console.log(second, minute, hour);
+// console.log(second, minute, hour);
 }
 
 setInterval(tiktak, 1000);
