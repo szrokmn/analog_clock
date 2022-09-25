@@ -20,5 +20,9 @@ hours.style.transform = `rotate(${180 + (hour * 30)}deg)`
 setInterval(tiktak, 1000);
 
 
+document.querySelector('.clock').addEventListener('mousemove', arkaPlanRengiDegistir);
 
+function arkaPlanRengiDegistir(e) {   
+    document.querySelector('.clock').style.backgroundColor = `rgb(${e.clientX % 255}, ${e.clientY % 255}, ${(e.clientX + e.clientY) % 255})`
+}
 
