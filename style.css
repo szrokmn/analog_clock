@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: ease 0.4s;
 }
 body{
-    background-color: antiquewhite;
+    background-image: linear-gradient(green, yellow);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,6 +20,10 @@ body{
     background: url("https://cssanimation.rocks/images/posts/clocks/ios_clock.svg") center;
     background-repeat: no-repeat;
     background-size: 88%;
+    box-shadow:5px 5px 8px rgba(0, 0, 0, 0.544);
+}
+.clock:hover{
+    transform: scale(1.1);    
 }
 .secs{
     position: absolute;
