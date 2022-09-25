@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
+    background-color: antiquewhite;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.clock{
+.clock{    
     position: relative;
     width: 40rem;
     height: 40rem;
